@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Adwinit Shop</title>
+    <title>  Adwinit Shop  </title>
 </head>
 <body>
-<h1>Adwinit Shop</h1><hr>
+<h1 > Adwinit Shop &copy;</h1><hr>
 <h4>Подробная информация о товаре</h4>
 <b>Название товара: </b>${product.title}<br>
 <b>Описание товара: </b>${product.description}<br>
@@ -15,5 +15,15 @@
 <form action="/product/delete/${product.id}" method="post">
     <input type="submit" value="Удалить товар"/>
 </form>
+<br>
+<form action="/" method="get">
+    <input type="submit" value="Назад"/>
+</form>
+
 </body>
+<br><br>
+<footer>
+    Vadim Kharovyuk  1993-2024 &copy;
+</footer>
+
 </html>

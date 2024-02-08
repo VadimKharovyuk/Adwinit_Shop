@@ -13,9 +13,7 @@ public class ProductService {
 
     {
         products.add(new Product(++ID, "Iphone 12", "Phone", 32000, "Kiev", "Andrey"));
-        products.add(new Product(++ID, "MacBook", "LapTop", 53000, "Odessa", "Igor"));
-        products.add(new Product(++ID, "Mazda", "Car", 24000, "Kharkiv", "Vika"));
-        products.add(new Product(++ID, "Iphone 14", "Phone", 44000, "Chernigow", "Vasa"));
+
     }
 
     public List<Product> listProducts() { return products; }
