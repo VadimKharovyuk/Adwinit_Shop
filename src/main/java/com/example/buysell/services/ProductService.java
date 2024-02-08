@@ -16,7 +16,9 @@ public class ProductService {
 
     }
 
-    public List<Product> listProducts() { return products; }
+    public List<Product> listProducts() {
+        return products;
+    }
 
     public void saveProduct(Product product) {
         product.setId(++ID);
